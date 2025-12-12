@@ -85,7 +85,7 @@ Raw Data
 
 ---
 
-## 🧪 Notebooks Included
+##  Notebooks Included
 
 ### **1. Exploratory Data Analysis (EDA)**  
 File: `1_EDA/House_price_exploratory_data_analysis.ipynb`
