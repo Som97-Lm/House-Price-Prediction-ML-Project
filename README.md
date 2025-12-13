@@ -31,7 +31,9 @@ This is a practical ML workflow demonstrating:
 - Variable encoding  
 - Skewness correction  
 - Feature selection  
-- Preparing the final modeling dataset  
+- Preparing the final modeling dataset
+- Modeling
+- Testing the model
 
 This structure reflects industry best practices for building accurate regression models.
 
@@ -152,6 +154,23 @@ Planned additions:
 - Deployment-ready pipeline  
 
 ---
+
+## Modeling & Evaluation
+
+The modeling phase includes training a regression model on the processed and feature-selected dataset, followed by robust evaluation.
+
+### Notebooks:
+- **Model_Training.ipynb**
+  - Model building using selected features
+  - Hold-out validation
+  - Cross-validation (5-fold)
+  - Learning curve analysis
+
+- **Model_Testing_Evaluation.ipynb**
+  - Test data preprocessing aligned with training
+  - Model inference on unseen data
+  - Performance discussion and limitations
+
 
 ## Author
 
